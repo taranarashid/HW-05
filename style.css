@@ -1,0 +1,102 @@
+*{
+    
+    box-sizing: border-box;
+}
+.sub-box-1{
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(#ff6b6b,#412222);
+}
+.sub-box-2{
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(#c8d6e5 0%,#c8d6e5 20%,#8395a7 20%, #8395a7 40%,#576574 40%,#576574 70%,#222f3e 70%,#222f3e 100%);
+    margin-left: 300px;
+    border-style: ridge;
+}
+.sub-box-3{
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(#f1c40f,#f39c12,#d35400);
+    border-radius: 20px;
+}
+.sub-box-4{
+    width: 300px;
+    height: 300px;
+    background: repeating-linear-gradient(45deg,#9b59b6 0%,#9b59b6 10%,#6c5ce7 10%,#6c5ce7 20%,#e84393 20%,#e84393 30%,#2d3436 30%,#2d3436 40%,#4a5564 40%,#4a5564 50%);
+    margin-left: 300px;
+    box-shadow: ;
+}
+.sub-box-5{
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(#fbc531,#947624);
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.sub-box-6{
+    width: 300px;
+    height: 300px;
+    background: repeating-radial-gradient(#78e08f 0%,#78e08f 10%,#38ada9 10%,#38ada9 20%);
+    margin-left: 300px;
+}
+.sub-box-7{
+    width: 300px;
+    height: 300px;
+    background: conic-gradient(#e84118,#c23616)
+}
+
+
+
+.box-2{
+    width: 300px;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 30px #f3c9c9;
+    border-radius: 5px;
+    padding: 10px 10px  30px;
+
+}
+
+.price span{
+    background-color: #8e44ad;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: #ffffff;
+    padding: 5px 15px 5px 5px;
+    display: inline-block;
+}
+.contains h4 a{
+    color: black;
+    text-decoration: none;
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: 800;
+    
+
+}
+
+.ul li{
+    color: #666;
+}
+
+.dis-price h4{
+    color: red;
+    text-align: center;
+}
+.dis-price h4 span{
+    color: #a5b1c2;
+    text-decoration: line-through;
+    font-size: 12px;
+    font-weight: 600;
+    padding-left: 5px;
+}
+.btn-group button{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #3749bb;
+    margin-bottom: 10px;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+}
